@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Verifikasi AREA 2</title>
+<link rel="manifest" href="manifest-area2.json"><meta name="theme-color" content="#0d1626"><meta name="robots" content="noindex,nofollow"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header><div><h1 onclick="tt()">Verifikasi <span>Proses &amp; Output Produksi</span></h1><div class="sub">Pencatatan &amp; analitik temuan · <b>AREA 2</b></div></div><div class="hr"><div class="dt" id="dt"></div><div class="clk" id="clk">--:--:--</div><div class="st off" id="st"><b>●</b> menghubungkan</div></div></header>
+<main id="app"></main>
+<nav><div><button data-t="input" onclick="go('input')"><i>✎</i>Input</button><button data-t="dash" onclick="go('dash')"><i>◔</i>Dashboard</button><button data-t="data" onclick="go('data')"><i>☰</i>Data</button></div></nav>
+<div id="toast"></div>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="config-area2.js"></script>
+<script src="app.js"></script>
+</body></html>
